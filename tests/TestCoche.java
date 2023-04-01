@@ -16,7 +16,7 @@ public class TestCoche {
     @Test
     public void test_al_decelerar_un_coche_su_velocidad_disminuye_Sergio_Aroca(){
         Coche nuevoCoche = new Coche();
-        nuevoCoche.velocidad = 50;    //como el coche se crea en 0 le pondremos una velocidad mayor.
+        nuevoCoche.velocidad = 50;    //Como el coche se crea en 0 le pondremos una velocidad mayor.
         nuevoCoche.decelerar(20);
         Assertions.assertEquals(30, nuevoCoche.velocidad);
     }
